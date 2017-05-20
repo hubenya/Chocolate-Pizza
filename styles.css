@@ -55,27 +55,24 @@ a {
   text-decoration: none;
   color: #fff;
 }
-/*header {
+header {
   height: 100px;
   background: white;
-	border: dotted 1px green;
-}*/
+}
 
 header div {
   width: 960px;
   margin: 0 auto;
-	border: dotted 1px black;
 }
 .logoimage {
 	float: left;
 	margin-top: 10px;
-	width: 12px;
+	width: 15px;
 }
 .socialicons {
 	position: absolute;
 	text-align: right;
 	margin-top: 30px;
-	padding: 5px;
 }
 h1 {
 	float: left;
@@ -84,7 +81,19 @@ h1 {
   margin-left: 35px;
 	padding-top: 5px;
 }
-
+nav p {
+	float: left;
+	position: absolute;
+	font-family: 'Yellowtail', sans-serif;
+	margin-left: 45px;
+	padding-top: 45px;
+	font-size: 15px;
+}
+.divider {
+	height: 12px;
+	color: #0F0901;
+	background-color: none;
+}
 
 body {
   width: 960px;
