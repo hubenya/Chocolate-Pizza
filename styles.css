@@ -6,7 +6,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -48,15 +48,13 @@ table {
 }
 
 /*webpage styling starts here*/
-/*body {
-  font-family: helvetica;
-}*/
 a {
   text-decoration: none;
-  color: #fff;
+	font-size: 15px;
+	font-style: normal;
 }
 header {
-  height: 100px;
+  height: 75px;
   background: white;
 }
 
@@ -66,7 +64,7 @@ header div {
 }
 .logoimage {
 	float: left;
-	margin-top: 10px;
+	margin-top: 12px;
 	width: 15px;
 }
 .socialicons {
@@ -74,17 +72,23 @@ header div {
 	text-align: right;
 	margin-top: 30px;
 }
+
+.socialicons img:nth-child(7) {
+  margin-left: 8px;
+}
+
+
 h1 {
 	float: left;
 	font-family: Brush Script MT,cursive;
-	font-size: 50px;
+	font-size: 45px;
   margin-left: 35px;
 	padding-top: 5px;
 }
 nav p {
 	float: left;
 	position: absolute;
-	font-family: 'Yellowtail', sans-serif;
+	font-family: 'Agency FB';
 	margin-left: 45px;
 	padding-top: 45px;
 	font-size: 15px;
@@ -93,10 +97,38 @@ nav p {
 	height: 12px;
 	color: #0F0901;
 	background-color: none;
+	margin-bottom: 40px;
 }
 
 body {
   width: 960px;
   margin: 0px auto;
 	border: dotted 1px green;
+}
+h2 {
+	float: left;
+	position: absolute;
+	font-family: fantasy;
+	font-size: 45px;
+
+}
+h3 {
+	float: left;
+	position: absolute;
+	font-size: smaller;
+	margin-left: 0px;
+	margin-top: 45px;
+	color: gray;
+}
+
+.printicon {
+	text-align: right;
+	color: gray;
+	padding-top: 45px;
+
+}
+.pizza {
+	text-align: center;
+	margin-top: 50px;
+	width: 960px
 }
