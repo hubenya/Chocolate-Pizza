@@ -44,9 +44,7 @@ nav p {
 	font-size: 15px;
 }
 .divider {
-	height: 12px;
 	color: #0F0901;
-	background-color: none;
 	margin-bottom: 40px;
 }
 
@@ -101,28 +99,37 @@ div ul li {
 	width: 960px;
 	z-index: 1;
 	list-style: none;
-	border: dotted 1px black;
+	padding-bottom: 20px;
+
 }
 
 .list1 {
 	float: left;
 	position: absolute;
-	margin-left: 30px;
-	list-style: none;
 	width: 300px;
+	margin-left: 30px;
 	margin-right: 25px;
-	border: dotted 2px black;
+	padding-top: 25px;
+	list-style: none;
+	font-family: cursive;
+	opacity: 0.7;
 
 }
 .list2 {
-	display: block;
 	float: right;
-	padding-left: 500px;
 	position: absolute;
-	border: dotted 2px blue;
 	width: 350px;
+	padding-left: 500px;
+	padding-top: 25px;
+	border: dotted 2px blue;
+	font-family: cursive;
+	opacity: 0.7;
+
 }
 
-.list2 li:nth-child(7) {
-	text-indent: +2em;
+.list2 li:nth-child(2) {
+	text-decoration: line-through;
+}
+.list2 li:nth-child(3) {
+	text-decoration: line-through;
 }
